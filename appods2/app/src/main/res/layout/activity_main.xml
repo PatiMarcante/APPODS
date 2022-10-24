@@ -10,8 +10,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="365dp"
-        android:layout_height="122dp"
+        android:layout_width="368dp"
+        android:layout_height="93dp"
         android:layout_marginTop="100dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Os Objetivos de Desenvolvimento Sustentável (ODS) são uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015 composta por 17 objetivos e 169 metas a serem atingidos até 2030.  "
@@ -24,89 +24,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="60dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/sdg_2" />
-
-    <Button
-        android:id="@+id/ODS2"
-        android:layout_width="67dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="34dp"
-        android:backgroundTint="#D5A71F"
-        android:lineSpacingExtra="0"
-        android:rotation="0"
-        android:text="ODS 2"
-        android:textColor="#000000"
-        android:textSize="10dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/ODS1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/ODS3"
-        android:layout_width="67dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="35dp"
-        android:backgroundTint="#4CAF50"
-        android:lineSpacingExtra="0"
-        android:rotation="0"
-        android:text="ODS 3"
-        android:textColor="#000000"
-        android:textSize="10dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/ODS2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <Button
-        android:id="@+id/ODS4"
-        android:layout_width="67dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="37dp"
-        android:backgroundTint="#E6CF2B1F"
-        android:lineSpacingExtra="0"
-        android:rotation="0"
-        android:text="ODS 4"
-        android:textColor="#000000"
-        android:textSize="10dp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toEndOf="@+id/ODS3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="60dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/sdg_3" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="60dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/sdg_4" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="60dp"
         android:layout_height="59dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/ods1" />
@@ -125,5 +47,319 @@
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sdg_2" />
+
+    <Button
+        android:id="@+id/ODS2"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#D5A71F"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sdg_3" />
+
+    <Button
+        android:id="@+id/ODS3"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#4CAF50"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/sdg_4" />
+
+    <Button
+        android:id="@+id/ODS4"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="#E6CF2B1F"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ODS1"
+        app:srcCompat="@drawable/sdg_5" />
+
+    <Button
+        android:id="@+id/ODS5"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#FF5722"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/ODS2"
+        app:srcCompat="@drawable/sdg_6" />
+
+    <Button
+        android:id="@+id/ODS6"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:backgroundTint="#00BCD4"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/ODS3"
+        app:srcCompat="@drawable/sdg_7" />
+
+
+    <Button
+        android:id="@+id/ODS7"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="34dp"
+        android:backgroundTint="#FBE200"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 7"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/ODS4"
+        app:srcCompat="@drawable/sdg_8" />
+
+    <Button
+        android:id="@+id/ODS8"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="38dp"
+        android:backgroundTint="#D11641"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 8"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ODS9"
+        app:srcCompat="@drawable/sdg_9" />
+
+    <Button
+        android:id="@+id/ODS9"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="#F35A2A"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 9"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ODS5"
+        app:srcCompat="@drawable/sdg_10" />
+
+    <Button
+        android:id="@+id/ODS10"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#E91E63"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 10"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/ODS7"
+        app:srcCompat="@drawable/sdg_11" />
+
+    <Button
+        android:id="@+id/ODS11"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="#F6BB08"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 11"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="@+id/ODS10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ODS7"
+        app:layout_constraintTop_toBottomOf="@+id/ODS8"
+        app:srcCompat="@drawable/sdg_12" />
+
+    <Button
+        android:id="@+id/ODS12"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:backgroundTint="#D5840D"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 12"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/ODS11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="60"
+        android:layout_height="59"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ODS"
+        app:srcCompat="@drawable/sdg_13" />
+
+    <Button
+        android:id="@+id/ODS13"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#357C38"
+        android:lineSpacingExtra="0"
+        android:rotation="0"
+        android:text="ODS 13"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 
 </android.support.constraint.ConstraintLayout>
